@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 1.75em;
+}
+
+h1 {
+    font: bold 2.5em "Marko One", Georgia, serif;
+    color: rgb(253, 253, 191);
+    text-shadow: .05em .05em .1em lightslategray;
+}
+
+h1,
+#info {
+    text-align: center;
+}
+
+
+
+/* link styles */
+a:link,
+a:visited {
+    color: #2940a5;
+}
+
+/* header styles */
+header {
+    color: white;
+    background: url(starbanner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 19em;
+
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* nav styles */
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #f5ed87;
+}
+
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li a:active {
+    color: rgb(217, 182, 228);
+}
+
+nav ul li {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 2.5em;
+}
+
+/* list */
+
+ul {
+    text-align: center;
+}
+
+/* main image */
+img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(211, 255, 255);
+}
+
+/* footer styles */
+footer {
+    padding: 1em;
+    font-family: verdana, sans-serif;
+    background-color: #f1e2ef;
+    text-align: center;
+}
+
+
+/* CSS Document */
+}
